@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{78dc16e2-c605-40b1-b43a-b0b4db65d386}">
+		<property name="assetPath">
+			<value>Eksport/Oneshots/Jumping/Landing/Wood/Wood_Landing_6.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.38052083333333331</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bd9fa24b-6967-4470-b2eb-dc1f101347b5}</destination>
+		</relationship>
+	</object>
+</objects>

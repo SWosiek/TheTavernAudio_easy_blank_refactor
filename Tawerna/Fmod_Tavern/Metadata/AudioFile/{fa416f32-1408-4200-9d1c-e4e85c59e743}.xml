@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{fa416f32-1408-4200-9d1c-e4e85c59e743}">
+		<property name="assetPath">
+			<value>Eksport/Ambient/InDoors/Fire_Ambient.flac</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>99.500166666666672</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bd9fa24b-6967-4470-b2eb-dc1f101347b5}</destination>
+		</relationship>
+	</object>
+</objects>

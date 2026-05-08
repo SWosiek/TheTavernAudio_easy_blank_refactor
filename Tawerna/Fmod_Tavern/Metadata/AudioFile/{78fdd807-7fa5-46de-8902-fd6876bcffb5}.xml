@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{78fdd807-7fa5-46de-8902-fd6876bcffb5}">
+		<property name="assetPath">
+			<value>Eksport/Ambient/InDoors/Tavern_Talk_Ambient.flac</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>290.00225</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bd9fa24b-6967-4470-b2eb-dc1f101347b5}</destination>
+		</relationship>
+	</object>
+</objects>
