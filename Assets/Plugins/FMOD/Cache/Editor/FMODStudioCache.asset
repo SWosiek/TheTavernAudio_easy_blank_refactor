@@ -81,6 +81,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 290002
+--- !u!114 &-3401809014206345352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Steps
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Player/Steps
+  Guid:
+    Data1: -231565221
+    Data2: 1244745369
+    Data3: 1849273226
+    Data4: -346549422
+  Banks:
+  - {fileID: 9165994249359142754}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 654
+--- !u!114 &-159117854385458814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Land
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Player/Land
+  Guid:
+    Data1: 1640160638
+    Data2: 1231458982
+    Data3: 871723966
+    Data4: -1971320446
+  Banks:
+  - {fileID: 9165994249359142754}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 380
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,13 +155,16 @@ MonoBehaviour:
   - {fileID: -3639408672373041221}
   - {fileID: -4383226400602299413}
   - {fileID: 6809615609764689371}
+  - {fileID: 3541662979507912239}
+  - {fileID: -3401809014206345352}
+  - {fileID: -159117854385458814}
   EditorParameters: []
   MasterBanks:
   - {fileID: 9165994249359142754}
   StringsBanks:
   - {fileID: 87045588383884712}
   cacheVersion: 131859
-  cacheTime: 639138516037947155
+  cacheTime: 639144569250780102
   SerializableEventsDict:
   - key: event:/Inside/Ambient_Fire
     index: 0
@@ -117,6 +174,12 @@ MonoBehaviour:
     index: 2
   - key: event:/Inside/Ambient_Tavern_Music
     index: 3
+  - key: event:/Player/JumpUp
+    index: 4
+  - key: event:/Player/Steps
+    index: 5
+  - key: event:/Player/Land
+    index: 6
 --- !u!114 &87045588383884712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,11 +195,38 @@ MonoBehaviour:
   Path: Tawerna/Fmod_Tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639138516037947155
+  lastModified: 639144569250780102
   FileSizes:
   - Name: Desktop
-    Value: 938
+    Value: 1066
   Exists: 1
+--- !u!114 &3541662979507912239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/JumpUp
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Player/JumpUp
+  Guid:
+    Data1: -1980306130
+    Data2: 1123940880
+    Data3: 1255339178
+    Data4: 817102009
+  Banks:
+  - {fileID: 9165994249359142754}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1030
 --- !u!114 &6809615609764689371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,8 +269,8 @@ MonoBehaviour:
   Path: Tawerna/Fmod_Tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639138516037937107
+  lastModified: 639144569250765004
   FileSizes:
   - Name: Desktop
-    Value: 7089504
+    Value: 7221376
   Exists: 1

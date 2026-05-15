@@ -16,8 +16,6 @@ public class Footsteps : MonoBehaviour
     public EventReference jumpEvent;
     public EventReference landEvent;
 
-    // Usunięto: private Dictionary<string, string> surfaceTags;
-
     private float lastFootstepTime = 0f;
     private float distToGround;
 
@@ -29,8 +27,6 @@ public class Footsteps : MonoBehaviour
     void Start()
     {
         distToGround = GetComponent<Collider>().bounds.extents.y;
-        
-        // Usunięto: Inicjalizację słownika.
     }
 
     void Update()
