@@ -164,7 +164,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 87045588383884712}
   cacheVersion: 131859
-  cacheTime: 639144569250780102
+  cacheTime: 639171210136725346
   SerializableEventsDict:
   - key: event:/Inside/Ambient_Fire
     index: 0
@@ -195,7 +195,7 @@ MonoBehaviour:
   Path: Tawerna/Fmod_Tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639144569250780102
+  lastModified: 639171210136725346
   FileSizes:
   - Name: Desktop
     Value: 1066
@@ -269,7 +269,7 @@ MonoBehaviour:
   Path: Tawerna/Fmod_Tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639144569250765004
+  lastModified: 639171210136715675
   FileSizes:
   - Name: Desktop
     Value: 7221376
