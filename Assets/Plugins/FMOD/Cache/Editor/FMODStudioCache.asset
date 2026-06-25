@@ -27,6 +27,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 99500
+--- !u!114 &-7495564472233903629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JumpUp/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 948711701
+    data2: 3464676592
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stone
+  - Wood
+  Exists: 1
 --- !u!114 &-4383226400602299413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,10 +130,64 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 3815940068971575303}
   MinDistance: 1
   MaxDistance: 20
-  Length: 654
+  Length: 0
+--- !u!114 &-1968564320466616997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Inside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Inside
+  Guid:
+    Data1: -617208306
+    Data2: 1279190956
+    Data3: 2089229448
+    Data4: -275614986
+  Banks:
+  - {fileID: 9165994249359142754}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-1674328918012643895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Land/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 948711701
+    data2: 3464676592
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stone
+  - Wood
+  Exists: 1
 --- !u!114 &-159117854385458814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,10 +211,11 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -1674328918012643895}
   MinDistance: 1
   MaxDistance: 20
-  Length: 380
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,13 +239,14 @@ MonoBehaviour:
   - {fileID: 3541662979507912239}
   - {fileID: -3401809014206345352}
   - {fileID: -159117854385458814}
+  - {fileID: -1968564320466616997}
   EditorParameters: []
   MasterBanks:
   - {fileID: 9165994249359142754}
   StringsBanks:
   - {fileID: 87045588383884712}
   cacheVersion: 131859
-  cacheTime: 639171210136725346
+  cacheTime: 639180113010112071
   SerializableEventsDict:
   - key: event:/Inside/Ambient_Fire
     index: 0
@@ -180,6 +262,8 @@ MonoBehaviour:
     index: 5
   - key: event:/Player/Land
     index: 6
+  - key: snapshot:/Inside
+    index: 7
 --- !u!114 &87045588383884712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,10 +279,10 @@ MonoBehaviour:
   Path: Tawerna/Fmod_Tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639171210136725346
+  lastModified: 639180113010112071
   FileSizes:
   - Name: Desktop
-    Value: 1066
+    Value: 1292
   Exists: 1
 --- !u!114 &3541662979507912239
 MonoBehaviour:
@@ -223,10 +307,37 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -7495564472233903629}
   MinDistance: 1
   MaxDistance: 20
-  Length: 1030
+  Length: 0
+--- !u!114 &3815940068971575303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Steps/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 948711701
+    data2: 3464676592
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stone
+  - Wood
+  Exists: 1
 --- !u!114 &6809615609764689371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,8 +380,8 @@ MonoBehaviour:
   Path: Tawerna/Fmod_Tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639171210136715675
+  lastModified: 639180113010096962
   FileSizes:
   - Name: Desktop
-    Value: 7221376
+    Value: 7281312
   Exists: 1
